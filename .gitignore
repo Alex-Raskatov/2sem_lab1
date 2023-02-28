@@ -1,0 +1,5 @@
+*.txt
+/venv
+*_bin
+*.png
+*out

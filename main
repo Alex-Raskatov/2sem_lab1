@@ -1,0 +1,19 @@
+#!/bin/bash
+
+./compilling
+
+./progrev_bin
+
+echo "the end of progrev"
+
+./part1_binary_bin > part1_bynary_data.txt
+
+echo "the end of part 1 binary search"
+
+echo "part1_bynary_data.txt" | python graph.py
+
+./part1_simple_bin > part1_simple_data.txt
+
+echo "the end of part 1 binary search"
+
+echo "part1_simple_data.txt" | python graph.py

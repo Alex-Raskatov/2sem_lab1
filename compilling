@@ -1,0 +1,10 @@
+#!/bin/bash
+
+g++ progrev.cpp -o progrev_bin
+
+g++ part1_simple.cpp -o part1_simple_bin
+
+g++ part1_binary.cpp -o part1_binary_bin
+
+echo "the end of compilling"
+
