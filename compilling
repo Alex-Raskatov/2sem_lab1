@@ -10,5 +10,13 @@ g++ par2_simple.cpp -o part2_simple_bin
 
 g++ par2_ukaz.cpp -o part2_ukaz_bin
 
+g++ part3_A_uniform.cpp -o part3_A_uniform_bin
+
+g++ part3_A_binom.cpp -o part3_A_binom_bin
+
+g++ part3_B_uniform.cpp -o part3_B_uniform_bin
+
+g++ part3_B_binom.cpp -o part3_B_binom_bin
+
 echo "the end of compilling"
 

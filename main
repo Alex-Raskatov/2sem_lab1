@@ -6,9 +6,9 @@ echo "the end of progrev"
 
 # part 1 binary search
 
-./part1_binary_bin > part1_bynary_data.txt
+./part1_binary_bin > part1_binary_data.txt
 
-echo "part1_bynary_data.txt" | python graph.py
+echo "part1_binary_data.txt" | python graph.py
 
 echo "the end of part 1 binary search"
 

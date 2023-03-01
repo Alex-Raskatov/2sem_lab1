@@ -1,6 +1,8 @@
-*.txt
 /venv
 /tex
+
+*.txt
 *_bin
+*_bin_2
 *.png
-*out
+*.out
