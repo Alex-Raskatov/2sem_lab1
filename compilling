@@ -6,5 +6,9 @@ g++ part1_simple.cpp -o part1_simple_bin
 
 g++ part1_binary.cpp -o part1_binary_bin
 
+g++ par2_simple.cpp -o part2_simple_bin
+
+g++ par2_ukaz.cpp -o part2_ukaz_bin
+
 echo "the end of compilling"
 

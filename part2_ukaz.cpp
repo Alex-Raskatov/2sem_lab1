@@ -4,21 +4,28 @@
 
 int search(unsigned size, int key, int arr[]) {
 
-    unsigned i = 0;
-    
-    while (i < size) {
+    unsigned left = 0, right = size-1;
 
-        if (arr[i] == key) break;
+    while (left < right) {
+        if (arr[left] + arr[right] == key) {
+            return 0;
+        }
 
-        ++i;
+        else if (arr[left] + arr[right] > key) {
+            --right;
+        }
+
+        else if (arr[left] + arr[right] < key) {
+            ++left;
+        }
     }
 
-    return 0;
+    return -1;
 }
 
 int main() {
 
-    unsigned start = 500000, stop = 1000000, step = 10000;
+    unsigned start = 100, stop = 10000, step = 100;
 
     for (unsigned size = start; size < stop; size += step) {
 
@@ -26,7 +33,7 @@ int main() {
 
         unsigned seed = 10*SIZE % 8191;
         std::default_random_engine rnd(seed);
-        std::uniform_int_distribution<int> dstr(0, SIZE);
+        std::uniform_int_distribution<int> dstr(0, 2*SIZE);
 
         int arr[SIZE];
 
@@ -45,7 +52,7 @@ int main() {
 
         auto time_span = std::chrono::duration_cast<std::chrono::microseconds>(end - begin);
 
-        std::cout << size << " " << time_span.count() / size << std::endl;
+        std::cout << size << " " << time_span.count() / (size / 100) << std::endl;
     }
 
     return 0;

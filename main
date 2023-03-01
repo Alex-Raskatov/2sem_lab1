@@ -1,19 +1,23 @@
 #!/bin/bash
 
-./compilling
-
 ./progrev_bin
 
 echo "the end of progrev"
 
-./part1_binary_bin > part1_bynary_data.txt
+# part 1 binary search
 
-echo "the end of part 1 binary search"
+./part1_binary_bin > part1_bynary_data.txt
 
 echo "part1_bynary_data.txt" | python graph.py
 
-./part1_simple_bin > part1_simple_data.txt
-
 echo "the end of part 1 binary search"
 
-echo "part1_simple_data.txt" | python graph.py
+# part 2 ukaz search
+
+./part2_ukaz_bin > part2_ukaz_data.txt
+
+echo "part2_ukaz_data.txt" | python graph.py
+
+echo "the end of part 2 ukaz search"
+
+echo "the fast part is over"
