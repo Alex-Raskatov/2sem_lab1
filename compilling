@@ -18,5 +18,9 @@ g++ part3_B_uniform.cpp -o part3_B_uniform_bin
 
 g++ part3_B_binom.cpp -o part3_B_binom_bin
 
+g++ part3_C_uniform.cpp -o part3_C_uniform_bin
+
+g++ part3_C_binom.cpp -o part3_C_binom_bin
+
 echo "the end of compilling"
 

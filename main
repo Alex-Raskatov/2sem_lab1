@@ -21,3 +21,63 @@ echo "part2_ukaz_data.txt" | python graph.py
 echo "the end of part 2 ukaz search"
 
 echo "the fast part is over"
+
+# part 1 simple search
+
+./part1_simple_bin > part1_simple_data.txt
+
+echo "part1_simple_data.txt" | python graph.py
+
+echo "the end of part 1 simple search"
+
+# part 2 simple search
+
+./part2_simple_bin > part2_simple_data.txt
+
+echo "part2_simple_data.txt" | python graph.py
+
+echo "the end of part 2 simple search"
+
+# part 3 A
+
+./part3_A_uniform_bin > part3_A_uniform_data.txt
+
+echo "part3_A_uniform_data.txt" | python graph.py
+
+echo "the end of part 3 A uniform"
+
+./part3_A_binom_bin > part3_A_binom_data.txt
+
+echo "part3_A_binom_data.txt" | python graph.py
+
+echo "the end of part 3 A binom"
+
+# part 3 B
+
+./part3_B_uniform_bin > part3_B_uniform_data.txt
+
+echo "part3_B_uniform_data.txt" | python graph.py
+
+echo "the end of part 3 B uniform"
+
+./part3_B_binom_bin > part3_B_binom_data.txt
+
+echo "part3_B_binom_data.txt" | python graph.py
+
+echo "the end of part 3 B binom"
+
+# part 3 C
+
+./part3_C_uniform_bin > part3_C_uniform_data.txt
+
+echo "part3_C_uniform_data.txt" | python graph.py
+
+echo "the end of part 3 C uniform"
+
+./part3_C_binom_bin > part3_C_binom_data.txt
+
+echo "part3_C_binom_data.txt" | python graph.py
+
+echo "the end of part 3 C binom"
+
+

@@ -36,7 +36,7 @@ int search(unsigned size, int key, int arr[], int count_arr[]) {
 
 int main() {
 
-    unsigned start = 10000, stop = 1000000, step = 10000;
+    unsigned start = 1000, stop = 100000, step = 1000;
 
     for (unsigned size = start; size < stop; size += step) {
 
