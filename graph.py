@@ -20,6 +20,8 @@ def foo(file_name, graph_name):
     #for i in range(len(y)):
     #    y[i] = np.exp(y[i]/100)
 
+    plt.figure(figsize=(20,12))
+
     plt.plot(x, y,'o', color = 'black')
     plt.title('')
     plt.ylabel('')
